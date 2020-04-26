@@ -1,0 +1,18 @@
+.SpellsList {
+    width: 95%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 76px;
+    color: #0ccac4;
+}
+
+a {
+    text-decoration: none;
+}

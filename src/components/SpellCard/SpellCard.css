@@ -1,0 +1,22 @@
+.SpellCard {
+    color: black;
+    text-decoration: none;
+    font-size: 0.75em;
+    word-wrap: break-word;
+    background-color: #ccc;
+    height: 15vh;
+    width: 30vw;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .SpellCard {
+        width: 45vw;
+    }
+}
